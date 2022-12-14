@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!-- cree index.html i enllaç amb style.css -->
+    <link rel="stylesheet" href="style.css">
+<script>
+
+function edat (){
+    var nom = document.getElementById("nom").value
+    var adreça = document.getElementById("adreça").value
+    var edat = document.getElementById("edat").value
+    alert ('bienvnido ' + nom + " " + adreça + " " + edat)
+}
+
+</script>
+    
+</head>
+<body>
+    
+    <h1 id="pont">PONT</h1>
+
+<p class="blau">hola <br> bon dia</p>
+<!-- desenvolupat fins hola bon dia -->
+<hr>
+<p onclick="this.style.color='red'"> nom <input type="text" id="nom" ></p>
+
+<p ondblclick="this.style.color='pink'"> adreça <input type="text" id="adreça"></p> 
+
+edat <input type="text" id="edat" onblur="edat()"> <br>
+<!-- desenvolupament final prova -->
+
+
+
+</body>
+</html>
